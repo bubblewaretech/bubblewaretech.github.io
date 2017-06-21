@@ -1,32 +1,45 @@
-<!-- Reset.css -->
+<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <title>Example Page</title>
-    <!-- Once a reset.css is used uncomment the following line to see how this stylesheet works-->
-    <!--Try enabling and then disabling it more than once.-->
-    <link rel="stylesheet" href="reset.css"> 
-    
-  </head>
+  <meta charset="UTF-8">
+  <title>1.2.9 Exercise</title>
 
-  <body>
+  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-  <h1>This is a header 1</h1>
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore ut, eum! Repellat, beatae dolorem minus sapiente iste nihil explicabo impedit eos consequuntur illum corporis autem vitae cum aperiam mollitia.</p>
+  <div class="container">
 
-  <h2>This is a header 2</h2>
+    <section id="main-bio">
 
-  <ul>
-    <li>Test</li>
-    <li>Test</li>
-    <li>Test</li>
-    <li>Test</li>
-  </ul>
+      <h2>Dave Gill</h2>
+      <img src="davegill.jpg" alt="Your Image" id="bio-image">
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
 
-  </body>
+    </section>
+
+    <section id="contact-info">
+
+      <h2>Contact Info</h2>
+
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:dave.gill@lisn.cc">dave.gill@lisn.cc</a></li>
+        <li><strong>Github:</strong> <a href="#">bubblewaretech</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">davegill.me</a></li>
+      </ul>
+
+    </section>
+
+  </div>
+
+</body>
 
 </html>
